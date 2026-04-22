@@ -1,0 +1,7 @@
+name: MyRobot
+uuid: b3d75835-2042-4c2b-9a6a-58bf01702961
+
+robot: !include 'config/robot.yml'
+missions: !include 'config/missions.yml'
+definitions: !include 'config/hardware.yml'
+connection: !include 'config/connection.yml'
