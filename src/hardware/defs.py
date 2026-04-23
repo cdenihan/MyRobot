@@ -11,28 +11,28 @@ class Defs:
         port=0,
         inverted=False,
         calibration=MotorCalibration(
-            ticks_to_rad=1.6409346766266992e-05, vel_lpf_alpha=1.0
+            ticks_to_rad=1.675694940295412e-05, vel_lpf_alpha=1.0
         ),
     )
     front_right_motor = Motor(
         port=1,
         inverted=False,
         calibration=MotorCalibration(
-            ticks_to_rad=1.5821968220392163e-05, vel_lpf_alpha=1.0
+            ticks_to_rad=1.6467330773068776e-05, vel_lpf_alpha=1.0
         ),
     )
     rear_left_motor = Motor(
         port=2,
         inverted=False,
         calibration=MotorCalibration(
-            ticks_to_rad=1.6534108046411276e-05, vel_lpf_alpha=1.0
+            ticks_to_rad=1.6841676201509747e-05, vel_lpf_alpha=1.0
         ),
     )
     rear_right_motor = Motor(
         port=3,
         inverted=False,
         calibration=MotorCalibration(
-            ticks_to_rad=1.633047904459888e-05, vel_lpf_alpha=1.0
+            ticks_to_rad=1.6788360868058874e-05, vel_lpf_alpha=1.0
         ),
     )
     analog_sensors = []
