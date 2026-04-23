@@ -1,13 +1,13 @@
 # Uncomment and configure servos as needed:
-# arm_servo:
-#   type: Servo
-#   port: 0
-#   positions:
-#     up: 30
-#     down: 160
-# claw_servo:
-#   type: Servo
-#   port: 1
-#   positions:
-#     open: 30
-#     closed: 135
+arm_servo:
+  type: Servo
+  port: 0
+  positions:
+    up: 75
+    down: 165
+claw_servo:
+  type: Servo
+  port: 1
+  positions:
+    open: 75
+    closed: 175
